@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────
+# Project
+# ─────────────────────────────────────────
+PROJECT_NAME        = "LRU Cache"
+PROJECT_BRIEF       = "Thread-safe LRU cache with memoization"
+PROJECT_NUMBER      = 1.0
+OUTPUT_DIRECTORY    = docs
+
+# ─────────────────────────────────────────
+# Input
+# ─────────────────────────────────────────
+INPUT               = src
+FILE_PATTERNS       = *.hpp *.h *.cpp
+RECURSIVE           = YES
+
+# ─────────────────────────────────────────
+# Output
+# ─────────────────────────────────────────
+GENERATE_HTML       = YES
+GENERATE_LATEX      = NO
+HTML_OUTPUT         = html
+
+# ─────────────────────────────────────────
+# Extraction
+# ─────────────────────────────────────────
+EXTRACT_ALL         = NO
+EXTRACT_PRIVATE     = NO
+EXTRACT_STATIC      = YES
+
+# ─────────────────────────────────────────
+# Display options
+# ─────────────────────────────────────────
+SHOW_INCLUDE_FILES  = YES
+INLINE_SOURCES      = NO
+HAVE_DOT            = NO
