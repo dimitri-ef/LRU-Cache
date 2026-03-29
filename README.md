@@ -39,6 +39,18 @@ cached(0.0, 100.0, 1000000);
 g++ -std=c++17 -O2 testbench/main.cpp -o testbench && ./build
 ```
 
+## Testbench
+
+```sh
+=== Results ===
+sieve_cached: avg=2070.49us over 500 calls
+sieve: avg=31604.9us over 500 calls
+integrate_cached: avg=2086.13us over 500 calls
+integrate: avg=32539.5us over 500 calls
+is_prime_cached: avg=1.68us over 500 calls
+is_prime: avg=10.84us over 500 calls
+```
+
 ## Notes
 
 - `memoize` works with function pointers and lambdas, not member functions
